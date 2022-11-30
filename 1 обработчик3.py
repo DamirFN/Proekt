@@ -21,7 +21,7 @@ def start():
     e0 = open('120.txt', 'r', -1, 'utf-8')
     r = e0.readlines()
     r1 = ', '.join(r).split(' ')
-    for r1 in r1:
+    for r1 in r:
         if r1 in library:
             s.append(r1)
     e0.close()
